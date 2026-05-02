@@ -1,0 +1,24 @@
+MANUAL STEPS TO START XAMPP:
+
+1. Open File Explorer
+2. Navigate to C:\xampp
+3. Double-click xampp-control.exe
+4. In XAMPP Control Panel:
+   - Click "Start" next to Apache
+   - Click "Start" next to MySQL
+   - Wait for both to turn green
+
+5. Once both are green, open browser and go to:
+   http://localhost/social_welfare/
+
+IF XAMPP DOESN'T START:
+1. Check if port 80 is blocked by another program
+2. Try running XAMPP as Administrator
+3. Check Windows Firewall settings
+
+ALTERNATIVE - Use different port:
+1. In XAMPP Control Panel, click "Config" next to Apache
+2. Select "Apache (httpd.conf)"
+3. Find "Listen 80" and change to "Listen 8080"
+4. Save and restart Apache
+5. Then use: http://localhost:8080/social_welfare/complete_fix.php

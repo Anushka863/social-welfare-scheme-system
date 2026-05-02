@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Setup Guide</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .step { background: #e3f2fd; padding: 15px; margin: 10px 0; border-left: 4px solid #2196f3; border-radius: 4px; }
+        .important { background: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; border-radius: 4px; margin: 10px 0; }
+        .success { background: #d4edda; padding: 15px; border-left: 4px solid #28a745; border-radius: 4px; margin: 10px 0; }
+        button { background: #2196f3; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #1976d2; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Social Welfare System - Quick Setup</h1>
+        
+        <div class="important">
+            <strong>IMPORTANT:</strong> You need to start XAMPP first before accessing PHP files!
+        </div>
+
+        <div class="step">
+            <h3>Step 1: Start XAMPP</h3>
+            <ol>
+                <li>Double-click on: <strong>start_xampp.bat</strong> (in this folder)</li>
+                <li>OR manually open: <strong>C:\xampp\xampp-control.exe</strong></li>
+                <li>Click <strong>Start</strong> next to Apache</li>
+                <li>Click <strong>Start</strong> next to MySQL</li>
+                <li>Wait for both to turn <span style="color: green;">green</span></li>
+            </ol>
+        </div>
+
+        <div class="step">
+            <h3>Step 2: Access the System</h3>
+            <p>Once Apache is running, click this button:</p>
+            <button onclick="window.open('http://localhost/social_welfare/complete_fix.php', '_blank')">
+                🚀 Run Complete Fix
+            </button>
+            <p><small>If the button doesn't work, manually go to: <code>http://localhost/social_welfare/complete_fix.php</code></small></p>
+        </div>
+
+        <div class="step">
+            <h3>Step 3: Test the System</h3>
+            <p>After running the fix script:</p>
+            <ul>
+                <li>Login: <strong>testuser@example.com</strong></li>
+                <li>Password: <strong>password123</strong></li>
+                <li>Browse schemes and apply!</li>
+            </ul>
+        </div>
+
+        <div class="success">
+            <h3>✅ What the Fix Script Does:</h3>
+            <ul>
+                <li>Sets up database properly</li>
+                <li>Adds sample welfare schemes</li>
+                <li>Creates test user account</li>
+                <li>Fixes application system</li>
+            </ul>
+        </div>
+
+        <div class="important">
+            <h3>⚠️ Troubleshooting:</h3>
+            <ul>
+                <li><strong>Port 80 blocked?</strong> Change Apache port to 8080 and use: <code>http://localhost:8080/social_welfare/complete_fix.php</code></li>
+                <li><strong>Apache won't start?</strong> Run XAMPP as Administrator</li>
+                <li><strong>Still not working?</strong> Check if Skype/other apps are using port 80</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
