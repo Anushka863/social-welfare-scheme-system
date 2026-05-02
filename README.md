@@ -63,25 +63,20 @@
 
 ### Installation Steps
 
-1. **Clone the Repository** 📥
-   ```bash
-   git clone https://github.com/Anushka863/social-welfare-scheme-system.git
-   cd social-welfare-scheme-system
-   ```
 
-2. **Setup Environment** 🏗️
+1. **Setup Environment** 🏗️
    - Copy the project to your web server's root directory (e.g., `htdocs` in XAMPP)
    - Ensure PHP and MySQL are running
 
-3. **Database Setup** 🗄️
+2. **Database Setup** 🗄️
    - Import `social_welfare.sql` into your MySQL database
    - Update database credentials in `db.php` if necessary
 
-4. **Start the Server** ▶️
+3. **Start the Server** ▶️
    - Launch XAMPP and start Apache and MySQL
    - Open your browser and navigate to `http://localhost/social_welfare`
 
-5. **Initial Setup** 🔧
+4. **Initial Setup** 🔧
    - Run `setup_schemes.php` to populate initial scheme data
    - Create admin and test users using provided setup scripts
 
